@@ -1,0 +1,21 @@
+{
+  "name": "first_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamin27/nodejs_practice.git"
+  },
+  "keywords": [],
+  "author": "Yamin Alam Sarker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yamin27/nodejs_practice/issues"
+  },
+  "homepage": "https://github.com/yamin27/nodejs_practice#readme"
+}
