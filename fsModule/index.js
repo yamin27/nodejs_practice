@@ -9,8 +9,8 @@ var server = http.createServer(function (req,res){
 
         // fs.writeFile('demo.txt', 'file write', function (error){
 
-        //async rename
-        fs.rename('demo.txt', 'demo_rename.txt', function (error){
+        //sync rename
+        let error = fs.renameSync('Demo2.txt', 'demo_two.txt');
 
             if (error){
                 res.writeHead(200, {'Content-Type': 'text/html'});
@@ -23,8 +23,6 @@ var server = http.createServer(function (req,res){
                 res.end();
 
             }
-
-        })
 
         // let error = fs.writeFileSync('Demo2.txt', 'Sync FIle Write Example');
 
